@@ -54,13 +54,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Calculator\SimpleCalculator.csproj">
-      <Project>{f578d472-d342-4dac-8f81-9a9aec2d435d}</Project>
-      <Name>SimpleCalculator</Name>
-    </ProjectReference>
+    <None Include="test.proj" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="test.proj" />
+    <ProjectReference Include="..\SimpleCalculator\SimpleCalculator.csproj">
+      <Project>{3802d1d9-0992-429d-9b73-ef12bf9a190f}</Project>
+      <Name>SimpleCalculator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

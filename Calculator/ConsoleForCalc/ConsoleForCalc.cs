@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SimpleCalculator;
 using System.Configuration;
+using SimpleCalculator;
 
 namespace ConsoleForCalc
 {
@@ -12,10 +8,7 @@ namespace ConsoleForCalc
     {
         static void Main(string[] args)
         {
-            //b. В консольном приложении реализовать ввод с клавиатуры двух чисел и в качестве результата
-            // в консоль выдавать их сумму.Использовать Console.ReadLine/WriteLine и Int32.Parse
-
-            
+                     
             int firstNumber, secondNumber;
             int sub;
             double sum, mult, dev;
